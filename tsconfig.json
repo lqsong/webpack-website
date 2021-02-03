@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "target": "es5",
+        "allowJs": true,
+        // "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "./src",
+        "./typings.d.ts"
+    ],
+    "exclude": [
+        "./node_modules"
+    ] 
+}

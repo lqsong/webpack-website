@@ -14,7 +14,7 @@
  - [Gitee](https://gitee.com/lqsong/webpack-website/tree/typescript)
 
 
-## JavaScript
+## JavaScript (分支)
 
  - [Github](https://github.com/lqsong/webpack-website/tree/javascript) 
  - [Gitee](https://gitee.com/lqsong/webpack-website/tree/javascript)

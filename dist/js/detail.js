@@ -1,0 +1,1 @@
+(self.webpackChunkwebpack_website=self.webpackChunkwebpack_website||[]).push([[167],{474:(e,s,c)=>{"use strict";var a=c(176),b=c.n(a);c(734),c(134),b()((function(){console.log("Detail")}))}},0,[[474,666,729,672,216,592]]]);

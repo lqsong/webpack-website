@@ -1,0 +1,1 @@
+(self.webpackChunkwebpack_website=self.webpackChunkwebpack_website||[]).push([[592],{134:(e,c,a)=>{"use strict";var n=a(176),s=a.n(n);a(734),s()((function(){s()("#jq-search-btn").on("click",(function(){if(""===s()("#jq-search-input").val())return s()("#searchTipModal").modal("show"),!1}))}))}}]);

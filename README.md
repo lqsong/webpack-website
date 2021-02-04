@@ -7,6 +7,10 @@
 
  - [http://webpack-website.liqingsong.cc](http://webpack-website.liqingsong.cc/)
 
+## 实战案例
+
+ - lqsblog-frontend-foreground-template（[Github](https://github.com/lqsong/lqsblog-frontend-foreground-template) 、 [Gitee](https://gitee.com/lqsong/lqsblog-frontend-foreground-template)）
+
 
 ## TypeScript (分支)
 

@@ -7,6 +7,11 @@
  - [Gitee](https://gitee.com/lqsong/webpack-website)
 
 
+## 实战案例
+
+ - lqsblog-frontend-foreground-template（[Github](https://github.com/lqsong/lqsblog-frontend-foreground-template) 、 [Gitee](https://gitee.com/lqsong/lqsblog-frontend-foreground-template)）
+
+
 ## 目录结构
 
 ```bash

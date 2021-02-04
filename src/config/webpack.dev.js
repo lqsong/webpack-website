@@ -1,3 +1,4 @@
+const path = require("path");
 const webpack = require("webpack");
 const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
@@ -17,6 +18,7 @@ module.exports = function (env, argv) {
             host: WEBSITE_APP_HOST || 'localhost',
             compress: true,
             port: WEBSITE_APP_PORT || 8000,
+            contentBase: [path.join(__dirname, '../../public')],
             before: function(app, server) {
                 if(WEBSITE_APP_MOCK === 'true') {
                     // parse app.body

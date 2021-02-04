@@ -1,7 +1,9 @@
+const path = require("path");
 const webpack = require("webpack");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerWebpackPlugin = require("css-minimizer-webpack-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
 const { stringified } = require('./server/env');
@@ -25,6 +27,16 @@ module.exports = function (env, argv) {
                 },
               ]
             }
+          }),
+          new CopyWebpackPlugin({
+            patterns: [
+              {
+                from: path.join(__dirname, '../../public'),
+                globOptions: {
+                  ignore: ['.*'],
+                },
+              },
+            ],
           }),
           new CleanWebpackPlugin(),
           new webpack.DefinePlugin({
